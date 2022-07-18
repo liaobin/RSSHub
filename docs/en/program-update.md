@@ -108,6 +108,12 @@ Language
 
 <RouteEn author="DIYgod" example="/chrome/webstore/extensions/kefjpfngnndepjbopdmoebkipbgkggaa" path="/chrome/webstore/extensions/:id" :paramsDesc="['Extension id, can be found in extension url']"/>
 
+## Clash
+
+### Premium Releases
+
+<RouteEn author="ttttmr" example="/clash/premium" path="/clash/premium" radar="1" />
+
 ## CurseForge
 
 ### File Update
@@ -288,6 +294,12 @@ Refer to [#minecraft](/en/game.html#minecraft)
 ### Announcements
 
 <RouteEn author="nczitzk" example="/obsidian/announcements" path="/obsidian/announcements"/>
+
+## OpenWrt
+
+### Releases
+
+<RouteEn author="DIYgod" example="/openwrt/releases/xiaomi/xiaomi_redmi_router_ac2100" path="/releases/:brand/:model" :paramsDesc="['Device Model, can be found in url of `Table of Hardware` -> `Device Page`', 'Same as above']"/>
 
 ## PlayStation
 
